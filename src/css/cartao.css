@@ -1,0 +1,127 @@
+.cartao-stand {
+    display: none;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0;
+    border-radius: 10px;
+
+    /* Temporário */
+    margin-bottom: 20px;
+}
+
+.cartao-stand .cartao-topo {
+        padding: 30px 40px 0;
+        border-top-left-radius: 8px;
+        border-top-right-radius: 8px;
+}
+.cartao-stand .nome {
+    margin-bottom: 5px;
+
+}
+
+.cartao-stand .tipo {
+    font-size: 12px;
+    border-radius: 5px;
+    background-color: #fff;
+    opacity: 0.7;
+    padding: 2px 10px;
+   }
+
+.cartao-stand .detalhes {
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.cartao-stand .cartao-imagem {
+    width: 350px;
+    height: 500px;
+}
+
+.cartao-stand img {
+    max-height: 100%;
+}
+.cartao-stand .cartao-informacoes {
+    display: flex;
+    justify-content: space-between;
+    background-color: #fff;
+    padding: 80px 30px 50px;
+    margin-top: -70px;
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+}
+
+.cartao-stand .cartao-informacoes h3{
+    font-size: 20px;
+    margin-bottom: 15px;
+    border-bottom: 1px solid #7f7f7e;
+}
+
+.cartao-stand .cartao-informacoes .status, .cartao-stand .cartao-informacoes .habilidades{
+    padding: 0 10px;
+    width: 180px;
+}
+
+.cartao-stand .cartao-informacoes .status ul li, .cartao-stand .cartao-informacoes .habilidades ul li {
+    border-bottom: 1px solid #bdbebd;
+    padding:  0 0 5px;
+    margin-bottom: 5px;
+    font-size: 15px;
+}
+
+.cartao-stand.aberto {
+    display:block;
+}
+
+.roxo {
+    background: linear-gradient( 
+    to right, 
+    #19053f, 
+    #2c1063,
+    #361779,
+    #43208f);
+}
+.rosa {
+    background: linear-gradient( 
+    to right, 
+    #c89ab4, 
+    #e9bad7,
+    #eea9d4,
+    #c89ab4);
+}
+.azul {
+    background: linear-gradient( 
+    to right, 
+    #60a2e4, 
+    #a0ddfc,
+    #a0ddfc,
+    #b8e4fa);    
+}
+.ouro {
+    background: linear-gradient( 
+    to right, 
+    #AE8625, 
+    #EDC967,
+    #F7EF8A,
+    #D2AC47);
+}
+
+.sangue {
+    background: linear-gradient( 
+    to right, 
+    #5f1010, 
+    #951d1a, 
+    #d14040,
+    #5f1010);
+}
+
+.rosa {
+    background-color: #372241;
+}
+.ferro {
+    background: linear-gradient(
+    to right,
+    #55566e,
+    #b6b4c5,
+    #e0deeb,
+    #55566e);
+}
